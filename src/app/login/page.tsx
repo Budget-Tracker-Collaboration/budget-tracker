@@ -42,7 +42,7 @@ export default function Login() {
 
                 <Link href="/forgot-password" className="text-sm mt-2 block text-[#63FFA5]">Forgot Password?</Link>
                 <button type="submit" className="w-full py-2 bg-[#63FFA5] text-white rounded-md my-5">Login</button>
-                <p className="text-center">Don&apos;t have an account? <Link href="/forgot-password" className="text-sm text-[#63FFA5]">Register</Link></p>
+                <p className="text-center">Don&apos;t have an account? <Link href="/register" className="text-sm text-[#63FFA5]">Register</Link></p>
             </form>
         </section>
     )
