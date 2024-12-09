@@ -2,26 +2,147 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.signUpHeaderDiv {
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+  margin-left: 3vh;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+.signUpHeaderTitle {
+  padding-left: 20vh;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.signUpHeaderTitle h2 {
+  font-weight: 700;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.loginHeaderTitle h2 {
+  font-weight: 700;
+}
+
+.loginHeaderTitle {
+  padding-left: 22vh;
+}
+
+.signUpFrom {
+  margin-top: 10vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh;
+}
+
+.signUpInput {
+  height: 12vh;
+  border: 1px solid rgb(234, 226, 226);
+  border-radius: 12px;
+  margin-bottom: 4vh;
+  padding-left: 2vh;
+}
+
+.passwordInputDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(234, 226, 226);
+  border-radius: 12px;
+  margin-bottom: 4vh;
+  height: 12vh;
+}
+
+.passwordInputDiv input {
+  padding-left: 2vh;
+}
+
+.passwordInputDiv button {
+  padding-right: 2vh;
+}
+
+input:focus {
+  outline:none;
+}
+
+.googleIconBtn {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(234, 226, 226);
+  border-radius: 12px;
+  height: 12vh;
+  margin-bottom: 4vh;
+  font-weight: 700;
+}
+
+.googleIconBtn span {
+  margin-right: 2vh;
+  margin-left: 10vh;
+}
+
+.signUpCheckboxDiv {
+  font-size: 3.1vh;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4vh;
+}
+
+.checkbox {
+    width: 2rem;
+    height: 2rem;
+}
+
+.signUpCheckboxDiv label {
+  margin-left: 2vh;
+}
+
+.signUpCheckboxDiv label a {
+  color: #63FFA5;
+  margin-left: 1vh;
+}
+
+.orWithText {
+  text-align: center;
+  color: gray;
+  font-weight: bold;
+  font-size: 3.5vh;
+  margin-bottom: 2vh;
+}
+
+.forgotPass {
+  text-align: center;
+  color: #63FFA5;
+  margin-bottom: 4vh;
+  font-weight: 700;
+
+}
+
+.accountQText {
+  text-align: center;
+  color: rgb(152, 150, 150);
+  font-weight:500;
+  font-size: 3.8vh;
+}
+
+.signUpBtn {
+  background-color: #63FFA5;
+  font-weight: 700;
+  height: 12vh;
+  border-radius: 12px;
+  margin-bottom: 2vh;
+}
+
+.loginBtn {
+  background-color: #63FFA5;
+  font-weight: 700;
+  height: 12vh;
+  border-radius: 12px;
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  width: 280px;
+}
+
+.linktoSignUp {
+  text-decoration: underline;
+  color: #63FFA5;
 }
