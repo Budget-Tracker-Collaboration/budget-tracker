@@ -25,12 +25,13 @@
 .loginHeaderTitle {
   padding-left: 22vh;
 }
+.signUpFormDiv {
+  width: 100%;
+}
 
 .signUpFrom {
   margin-top: 10vh;
   display: grid;
-  justify-content: center;
-  align-items: center;
   padding: 5vh;
 }
 
@@ -114,7 +115,6 @@ input:focus {
   color: #63FFA5;
   margin-bottom: 4vh;
   font-weight: 700;
-
 }
 
 .accountQText {
@@ -139,7 +139,6 @@ input:focus {
   border-radius: 12px;
   margin-top: 2vh;
   margin-bottom: 4vh;
-  width: 280px;
 }
 
 .linktoSignUp {
