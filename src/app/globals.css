@@ -11,7 +11,7 @@
 
 
 .signUpHeaderTitle {
-  padding-left: 20vh;
+  padding-left: 12vh;
 }
 
 .signUpHeaderTitle h2 {
@@ -23,23 +23,23 @@
 }
 
 .loginHeaderTitle {
-  padding-left: 22vh;
+  padding-left: 13vh;
 }
 .signUpFormDiv {
   width: 100%;
 }
 
 .signUpFrom {
-  margin-top: 10vh;
+  margin-top: 7vh;
   display: grid;
   padding: 5vh;
 }
 
 .signUpInput {
-  height: 12vh;
+  height: 8vh;
   border: 1px solid rgb(234, 226, 226);
   border-radius: 12px;
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
   padding-left: 2vh;
 }
 
@@ -49,8 +49,8 @@
   align-items: center;
   border: 1px solid rgb(234, 226, 226);
   border-radius: 12px;
-  margin-bottom: 4vh;
-  height: 12vh;
+  margin-bottom: 2vh;
+  height: 8vh;
 }
 
 .passwordInputDiv input {
@@ -67,25 +67,29 @@ input:focus {
 
 .googleIconBtn {
   display: flex;
+  justify-content: center;
   align-items: center;
   border: 1px solid rgb(234, 226, 226);
   border-radius: 12px;
-  height: 12vh;
-  margin-bottom: 4vh;
+  height: 8vh;
+  margin-bottom: 2vh;
   font-weight: 700;
+}
+
+.googleIconBtn p {
+  text-align: center;
 }
 
 .googleIconBtn span {
   margin-right: 2vh;
-  margin-left: 10vh;
 }
 
 .signUpCheckboxDiv {
-  font-size: 3.1vh;
+  font-size: 1.5vh;
   font-weight: 700;
   display: flex;
   align-items: center;
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
 }
 
 .checkbox {
@@ -106,14 +110,14 @@ input:focus {
   text-align: center;
   color: gray;
   font-weight: bold;
-  font-size: 3.5vh;
-  margin-bottom: 2vh;
+  font-size: 1.5vh;
+  margin-bottom: 1vh;
 }
 
 .forgotPass {
   text-align: center;
   color: #63FFA5;
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
   font-weight: 700;
 }
 
@@ -121,24 +125,24 @@ input:focus {
   text-align: center;
   color: rgb(152, 150, 150);
   font-weight:500;
-  font-size: 3.8vh;
+  font-size: 1.6vh;
 }
 
 .signUpBtn {
   background-color: #63FFA5;
   font-weight: 700;
-  height: 12vh;
+  height: 8vh;
   border-radius: 12px;
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
 .loginBtn {
   background-color: #63FFA5;
   font-weight: 700;
-  height: 12vh;
+  height: 8vh;
   border-radius: 12px;
   margin-top: 2vh;
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
 }
 
 .linktoSignUp {

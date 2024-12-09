@@ -21,8 +21,7 @@ export default function SignUpForm() {
             <button className="signUpBtn">Sign Up</button>
             <p className="orWithText">Or with</p>
             <button className="googleIconBtn">
-                <span><FcGoogle size={24}/></span>
-                Sign Up with Google
+                <span><FcGoogle size={24}/></span><p>Sign Up with Google</p>
             </button>
             <p className="accountQText">Already have an account? <Link href="/login" className="linktoSignUp">Login</Link></p>
         </form>
