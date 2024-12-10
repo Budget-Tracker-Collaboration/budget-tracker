@@ -4,14 +4,10 @@
 
 .signUpHeaderDiv {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   margin-top: 5vh;
-  margin-left: 3vh;
-}
-
-
-.signUpHeaderTitle {
-  padding-left: 12vh;
+  margin-right: 7vh;
 }
 
 .signUpHeaderTitle h2 {
@@ -22,9 +18,6 @@
   font-weight: 700;
 }
 
-.loginHeaderTitle {
-  padding-left: 13vh;
-}
 .signUpFormDiv {
   width: 100%;
 }
@@ -81,7 +74,7 @@ input:focus {
 }
 
 .googleIconBtn span {
-  margin-right: 2vh;
+  margin-right: 1vh;
 }
 
 .signUpCheckboxDiv {

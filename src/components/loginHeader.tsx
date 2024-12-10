@@ -10,6 +10,7 @@ export default function LoginHeader() {
                     <div className="loginHeaderTitle" >
                         <h2>Login</h2>
                     </div>
+                    <div></div>
         </div>
     )
 }
